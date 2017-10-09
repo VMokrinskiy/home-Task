@@ -1,0 +1,14 @@
+{
+  "testCases" : [ {
+    "uid" : "f973259996aa408",
+    "name" : "webDriver",
+    "title" : "Web driver",
+    "time" : {
+      "start" : 1507540470263,
+      "stop" : 1507540512899,
+      "duration" : 42636
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1507540470226" stop="1507540512966" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>dz.WebDriverTest</name>
+    <test-cases>
+        <test-case start="1507540470263" stop="1507540512899" status="passed">
+            <name>webDriver</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="5928@VMokrinskiy.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

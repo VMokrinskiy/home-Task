@@ -1,0 +1,38 @@
+{
+  "time" : {
+    "start" : 1507540470263,
+    "stop" : 1507540512899,
+    "duration" : 42636
+  },
+  "testSuites" : [ {
+    "uid" : "39f833b7de7e97f0",
+    "name" : "dz.WebDriverTest",
+    "title" : "Web driver test",
+    "time" : {
+      "start" : 1507540470263,
+      "stop" : 1507540512899,
+      "duration" : 42636
+    },
+    "statistic" : {
+      "total" : 1,
+      "passed" : 1,
+      "pending" : 0,
+      "canceled" : 0,
+      "failed" : 0,
+      "broken" : 0
+    },
+    "description" : null,
+    "testCases" : [ {
+      "uid" : "f973259996aa408",
+      "name" : "webDriver",
+      "title" : "Web driver",
+      "time" : {
+        "start" : 1507540470263,
+        "stop" : 1507540512899,
+        "duration" : 42636
+      },
+      "severity" : "NORMAL",
+      "status" : "PASSED"
+    } ]
+  } ]
+}
