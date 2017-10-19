@@ -10,7 +10,7 @@
       "broken" : 0
     },
     "stories" : [ {
-      "uid" : "2d0a6c1d8851fc87",
+      "uid" : "ddb31673fa2e6852",
       "title" : "Without story",
       "statistic" : {
         "total" : 1,
@@ -21,13 +21,13 @@
         "broken" : 0
       },
       "testCases" : [ {
-        "uid" : "f973259996aa408",
+        "uid" : "7d1327fad1c95897",
         "name" : "webDriver",
         "title" : "Web driver",
         "time" : {
-          "start" : 1507540470263,
-          "stop" : 1507540512899,
-          "duration" : 42636
+          "start" : 1508403961794,
+          "stop" : 1508404008971,
+          "duration" : 47177
         },
         "severity" : "NORMAL",
         "status" : "PASSED"

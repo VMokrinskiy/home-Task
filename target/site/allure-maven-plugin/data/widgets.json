@@ -11,9 +11,9 @@
         "broken" : 0
       },
       "time" : {
-        "start" : 1507540470263,
-        "stop" : 1507540512899,
-        "duration" : 42636
+        "start" : 1508403961794,
+        "stop" : 1508404008971,
+        "duration" : 47177
       }
     },
     "defects" : {
@@ -23,7 +23,7 @@
     "xunit" : {
       "totalCount" : 1,
       "items" : [ {
-        "uid" : "39f833b7de7e97f0",
+        "uid" : "fc5bb5a2d063d46e",
         "title" : "Web driver test",
         "statistic" : {
           "total" : 1,

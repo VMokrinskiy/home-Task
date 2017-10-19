@@ -18,7 +18,7 @@ public class SearchResultPage extends BasePage{
     @FindBy(xpath = "//input[@id=\"header-search\"]")
     WebElement searchInput;
 
-    @FindBy(xpath = "//h1[@class=\"title title_size_22\"]")
+    @FindBy(xpath = "//h1[contains(@class,'title title')]")
     WebElement tvHeader;
 
     public SearchResultPage(WebDriver driver){

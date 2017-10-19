@@ -27,6 +27,7 @@ public class WebDriverTest {
 
     private WebDriver driver;
     private String baseURL;
+    Steps steps = new Steps();
 
     @Before
     public void setUp() throws Exception {
@@ -42,26 +43,26 @@ public class WebDriverTest {
         driver.get(baseURL);
         WebDriverWait wait = new WebDriverWait(driver, 5, 1000);
         MainPage mainPage = new MainPage(driver);
-        mainPage.marketButton.click();
+        steps.clickOnButton(mainPage.marketButton);
 
         MarketPage marketPage = new MarketPage(driver);
-        marketPage.electronicButton.click();
-        marketPage.tvButton.click();
+        steps.clickOnButton(marketPage.electronicButton);
+        steps.clickOnButton(marketPage.tvButton);
 
         TVPage tvPage = new TVPage(driver);
-        tvPage.priceFromInput.sendKeys("20000");
-        tvPage.scrollTo(tvPage.samsungCheckBox);
-        tvPage.samsungCheckBox.click();
-        tvPage.lgCheckBox.click();
-        tvPage.scrollTo(tvPage.applyButton);
-        tvPage.applyButton.click();
+        steps.inputData(tvPage.priceFromInput, "20000");
+        steps.scrollTo(driver, tvPage.samsungCheckBox);
+        steps.clickOnButton(tvPage.samsungCheckBox);
+        steps.clickOnButton(tvPage.lgCheckBox);
+        steps.scrollTo(driver, tvPage.applyButton);
+        steps.clickOnButton(tvPage.applyButton);
 
         SearchResultPage searchResultPage = new SearchResultPage(driver);
         assertEquals(12, searchResultPage.list.size());
         WebElement firstTV = searchResultPage.list.get(0);
         String name = firstTV.getText();
-        searchResultPage.searchInput.sendKeys(name);
-        searchResultPage.searchInput.submit();
+        steps.inputData(searchResultPage.searchInput, name);
+        steps.submitData(searchResultPage.searchInput);
         wait.until(ExpectedConditions.visibilityOf(searchResultPage.tvHeader));
         assertEquals(name, searchResultPage.tvHeader.getText());
 

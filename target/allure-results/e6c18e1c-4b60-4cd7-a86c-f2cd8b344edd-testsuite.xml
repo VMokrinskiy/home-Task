@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1508403961762" stop="1508404008971" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>dz.WebDriverTest</name>
+    <test-cases>
+        <test-case start="1508403961794" stop="1508404008971" status="passed">
+            <name>webDriver</name>
+            <steps>
+                <step start="1508403980228" stop="1508403983733" status="passed">
+                    <name>clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //a[@data-id="market"]]]</name>
+                    <title>Click on button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403983788" stop="1508403986834" status="passed">
+                    <name>clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //a[text()='Электроника'][@clas...]</name>
+                    <title>Click on button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403986870" stop="1508403990427" status="passed">
+                    <name>clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //a[text()="Телевизоры"][contai...]</name>
+                    <title>Click on button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403990538" stop="1508403992017" status="passed">
+                    <name>inputData[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //input[@id="glf-pricefrom-var"]], ...]</name>
+                    <title>InputData data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403992139" stop="1508403992539" status="passed">
+                    <name>scrollTo[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837), [[ChromeDriver: chrome on XP (0a40b0dccd585c04e1...]</name>
+                    <title>Scroll to element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403992622" stop="1508403993395" status="passed">
+                    <name>clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //label[text()="Samsung"]]]</name>
+                    <title>Click on button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403993802" stop="1508403995211" status="passed">
+                    <name>clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //label[text()="LG"]]]</name>
+                    <title>Click on button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403995519" stop="1508403996356" status="passed">
+                    <name>scrollTo[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837), [[ChromeDriver: chrome on XP (0a40b0dccd585c04e1...]</name>
+                    <title>Scroll to element</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403996882" stop="1508403997990" status="passed">
+                    <name>clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //button[contains(@class, "n-fi...]</name>
+                    <title>Click on button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508403998614" stop="1508404001353" status="passed">
+                    <name>inputData[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //input[@id="header-search"]], Sams...]</name>
+                    <title>InputData data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start="1508404001571" stop="1508404001966" status="passed">
+                    <name>submitData[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -&gt; xpath: //input[@id="header-search"]]]</name>
+                    <title>Submit data</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <labels>
+                <label name="host" value="VMokrinskiy"/>
+                <label name="thread" value="4232@VMokrinskiy.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="JUnit"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>

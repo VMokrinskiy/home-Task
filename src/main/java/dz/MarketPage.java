@@ -7,10 +7,10 @@ import org.openqa.selenium.support.PageFactory;
 
 public class MarketPage extends BasePage {
 
-    @FindBy(xpath = "//ul[@class=\"topmenu__list\"]/li[1]/a")
+    @FindBy(xpath = "//a[text()='Электроника'][@class=\"link topmenu__link\"]")
     public WebElement electronicButton;
 
-    @FindBy(xpath = "//div[@class=\"catalog-menu__item\"][3]/div/a[1]")
+    @FindBy(xpath = "//a[text()=\"Телевизоры\"][contains(@class, \"link catalog-menu\")]")
     public WebElement tvButton;
 
     public MarketPage(WebDriver driver){

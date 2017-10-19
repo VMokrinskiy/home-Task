@@ -1,0 +1,212 @@
+{
+  "uid" : "7d1327fad1c95897",
+  "name" : "webDriver",
+  "title" : "Web driver",
+  "time" : {
+    "start" : 1508403961794,
+    "stop" : 1508404008971,
+    "duration" : 47177
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 11
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "fc5bb5a2d063d46e",
+    "name" : "dz.WebDriverTest",
+    "title" : "Web driver test"
+  },
+  "steps" : [ {
+    "name" : "clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //a[@data-id=\"market\"]]]",
+    "title" : "Click on button",
+    "time" : {
+      "start" : 1508403980228,
+      "stop" : 1508403983733,
+      "duration" : 3505
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //a[text()='Электроника'][@clas...]",
+    "title" : "Click on button",
+    "time" : {
+      "start" : 1508403983788,
+      "stop" : 1508403986834,
+      "duration" : 3046
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //a[text()=\"Телевизоры\"][contai...]",
+    "title" : "Click on button",
+    "time" : {
+      "start" : 1508403986870,
+      "stop" : 1508403990427,
+      "duration" : 3557
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "inputData[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //input[@id=\"glf-pricefrom-var\"]], ...]",
+    "title" : "InputData data",
+    "time" : {
+      "start" : 1508403990538,
+      "stop" : 1508403992017,
+      "duration" : 1479
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "scrollTo[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837), [[ChromeDriver: chrome on XP (0a40b0dccd585c04e1...]",
+    "title" : "Scroll to element",
+    "time" : {
+      "start" : 1508403992139,
+      "stop" : 1508403992539,
+      "duration" : 400
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //label[text()=\"Samsung\"]]]",
+    "title" : "Click on button",
+    "time" : {
+      "start" : 1508403992622,
+      "stop" : 1508403993395,
+      "duration" : 773
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //label[text()=\"LG\"]]]",
+    "title" : "Click on button",
+    "time" : {
+      "start" : 1508403993802,
+      "stop" : 1508403995211,
+      "duration" : 1409
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "scrollTo[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837), [[ChromeDriver: chrome on XP (0a40b0dccd585c04e1...]",
+    "title" : "Scroll to element",
+    "time" : {
+      "start" : 1508403995519,
+      "stop" : 1508403996356,
+      "duration" : 837
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "clickOnButton[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //button[contains(@class, \"n-fi...]",
+    "title" : "Click on button",
+    "time" : {
+      "start" : 1508403996882,
+      "stop" : 1508403997990,
+      "duration" : 1108
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "inputData[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //input[@id=\"header-search\"]], Sams...]",
+    "title" : "InputData data",
+    "time" : {
+      "start" : 1508403998614,
+      "stop" : 1508404001353,
+      "duration" : 2739
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "submitData[[[ChromeDriver: chrome on XP (0a40b0dccd585c04e1d556d90ed03837)] -> xpath: //input[@id=\"header-search\"]]]",
+    "title" : "Submit data",
+    "time" : {
+      "start" : 1508404001571,
+      "stop" : 1508404001966,
+      "duration" : 395
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "host",
+    "value" : "VMokrinskiy"
+  }, {
+    "name" : "suite-name",
+    "value" : "dz.WebDriverTest"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "thread",
+    "value" : "4232@VMokrinskiy.main(1)"
+  } ],
+  "parameters" : [ ]
+}
